@@ -6,20 +6,50 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/etEventName"
-        android:hint="Event name"
+        android:id="@+id/etName"
+        android:hint="@string/event_name_hint"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:autofillHints="name"
+        android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/etEventDate"
-        android:hint="Event date"
+        android:id="@+id/etDate"
+        android:hint="@string/event_date_hint"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:autofillHints="date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/etHour"
+        android:hint="@string/event_hour_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="time"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:hint="@string/event_address_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="postalAddress"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:hint="@string/event_description_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="3"
+        android:autofillHints="text"
+        android:inputType="textMultiLine" />
 
     <Button
         android:id="@+id/btnSave"
-        android:text="Save Event"
+        android:text="@string/save_event_button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
 </LinearLayout>

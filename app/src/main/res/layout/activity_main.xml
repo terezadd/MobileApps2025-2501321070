@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="24dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <TextView
-        android:text="Events"
+        android:text="@string/events_title"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_gravity="center"
@@ -18,7 +17,7 @@
 
     <Button
         android:id="@+id/btnAddEvent"
-        android:text="Add new event"
+        android:text="@string/add_new_event_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
