@@ -22,19 +22,19 @@
         android:inputType="date" />
 
     <EditText
-        android:id="@+id/etHour"
-        android:hint="@string/event_hour_hint"
+        android:id="@+id/etTime"
+        android:hint="@string/event_time_hint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints="time"
         android:inputType="time" />
 
     <EditText
-        android:id="@+id/etAddress"
-        android:hint="@string/event_address_hint"
+        android:id="@+id/etLocation"
+        android:hint="@string/event_location_hint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:autofillHints="postalAddress"
+        android:autofillHints="location"
         android:inputType="textPostalAddress" />
 
     <EditText

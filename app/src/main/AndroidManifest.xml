@@ -20,6 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".AddEventActivity" />
+        <activity android:name=".EventDetailActivity" />
     </application>
 
 </manifest>

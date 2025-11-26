@@ -2,8 +2,8 @@
     <string name="app_name">EventsBuilder</string>
     <string name="event_name_hint">Name</string>
     <string name="event_date_hint">Date</string>
-    <string name="event_hour_hint">Hour</string>
-    <string name="event_address_hint">Address</string>
+    <string name="event_time_hint">Time</string>
+    <string name="event_location_hint">Location</string>
     <string name="event_description_hint">Description</string>
     <string name="save_event_button">Save event</string>
     <string name="events_title">Events</string>
