@@ -39,9 +39,9 @@
 
 ## Скрийншотове
 
-| Начален Екран | Добавяне на Събитие | Детайли и Редакция |
-|:---:|:---:|:---:|
-| ![Main Screen](D:\PU-FMI\MobileApplications\project\screenshots\main.png) | ![Add Event](D:\PU-FMI\MobileApplications\project\screenshots\add.png) | ![Details](D:\PU-FMI\MobileApplications\project\screenshots\details.png) |
+|             Начален Екран             |        Добавяне на Събитие         |          Детайли и Редакция          |
+|:-------------------------------------:|:----------------------------------:|:------------------------------------:|
+| ![Main Screen](/screenshots/main.png) | ![Add Event](/screenshots/add.png) | ![Details](/screenshots/details.png) |
 
 *(Забележка: Добавете вашите скрийншотове в папка и променете пътищата по-горе)*
 
